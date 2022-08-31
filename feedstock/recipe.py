@@ -9,7 +9,7 @@ from pangeo_forge_recipes.recipes import XarrayZarrRecipe
 # so instead we crawl the NCEI server.
 
 url_base = "https://www.ncei.noaa.gov/data/global-precipitation-climatology-project-gpcp-daily/access/"
-years = range(1996, 2022)
+years = range(1996, 1997)
 file_list = []
 fs = HTTPFileSystem()
 for year in years:
