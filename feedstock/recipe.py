@@ -17,7 +17,7 @@ for year in years:
         lambda x: x.endswith('.nc'),
         fs.ls(url_base + str(year), detail=False)
     ))
-# small change to open a pr with
+# small change to open a pr with - 0
 pattern = pattern_from_file_sequence(
     file_list,
     "time",
